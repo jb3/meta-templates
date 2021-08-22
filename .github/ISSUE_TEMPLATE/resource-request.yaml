@@ -43,5 +43,6 @@ body:
     id: additional
     attributes:
       label: Please give any additional information about the resource you think is worth including
+      description: Please list any information such as pricing of the resource or additional ways to access the resource
     validations:
-      required: true
+      required: false
