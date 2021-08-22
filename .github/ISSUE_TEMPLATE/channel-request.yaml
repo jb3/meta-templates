@@ -22,16 +22,16 @@ body:
       placeholder: "My channel to talk about different types of duck..."
     validations:
       required: true
-  - type: checkboxes
+  - type: dropdown
     id: type
     attributes:
       label: Channel type
       description: What area of the server does the channel fit into?
       options:
-        - label: Topical
-        - label: Discussion
-        - label: Announcement
-        - label: Other
+        - Topical
+        - Discussion
+        - Announcement
+        - Other
     validations:
       required: true
   - type: textarea
